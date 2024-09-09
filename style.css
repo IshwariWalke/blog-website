@@ -1,0 +1,74 @@
+*{
+    background-color: black;
+    color: white;
+}
+nav > svg{
+    fill: black;
+}
+section > div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 70px;
+}
+.container > section{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 100px, 200px; 
+        gap: 50px;  
+        padding-top: 100px;    
+        border: 2px solid white;                 
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto;          
+    gap: 10px;                         
+  }
+  
+  .grid-item {
+    background-color: black; 
+    border: 1px solid black;   
+    padding: 20px;          
+   
+    justify-content: space-between;
+    color:white; 
+    font-size: 15px;       
+  }
+  svg{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  .align{
+    align-items: center;
+  }
+  .cont{
+    text-align: center;
+    padding: 10px;
+  }
+  button{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  div > .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+
+  }
+  section > ul > li{
+    padding: 10px;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    width: 30px;
+  }
